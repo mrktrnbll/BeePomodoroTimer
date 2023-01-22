@@ -82,9 +82,9 @@ def tick(counter):
     global minutes_time
     seconds_time -= 1
 
-    time_canvas.create_text(30, 22, fill='purple', text=minutes_time, font=('Helvetica', '40', 'bold'))
-    time_canvas.create_text(65, 18, fill='purple', text=':', font=('Helvetica', '40', 'bold'))
-    time_canvas.create_text(100, 22, fill='purple', text=seconds_time, font=('Helvetica', '40', 'bold'))
+    time_canvas.create_text(230, 22, fill='purple', text=minutes_time, font=('Helvetica', '40', 'bold'))
+    time_canvas.create_text(265, 18, fill='purple', text=':', font=('Helvetica', '40', 'bold'))
+    time_canvas.create_text(300, 22, fill='purple', text=seconds_time, font=('Helvetica', '40', 'bold'))
 
     if minutes_time < 0:
         if counter > len(list_of_times)-1:
