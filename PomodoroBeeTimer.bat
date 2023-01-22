@@ -1,3 +1,3 @@
 @echo off
-"Python311\pythonw.exe" "PossibleComplete.py"
+"Python311\pythonw.exe" "PomodoroPythonScript.py"
 pause
